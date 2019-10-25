@@ -1,6 +1,15 @@
 <div class="main top-main">
   <div class="top-message">
 <video src="/video/video1.mp4" autoplay muted loop playsinline>
+  <source
+    media="(max-width: 767px)"
+    sizes="(max-width: 768px) 100vw, 767px"
+    srcset="video/video1.mp4 767w">
+  <img
+    srcset="
+      video/video1.mp4 768w,
+      video/video1.mp4 1280w"
+    sizes="(max-width: 1280px) 100vw, 1280px">
 </video>
 </div>
 </div>
