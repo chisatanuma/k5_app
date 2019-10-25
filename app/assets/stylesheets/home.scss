@@ -243,7 +243,7 @@ video{
 
 
 @media (max-width: 670px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-  .video{
+  video{
     width: 670px;
     height: 100%;
     object-fit: cover;
